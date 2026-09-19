@@ -30,8 +30,24 @@
   --radius-pill: 999px;
 }
 
+:root {
+  color-scheme: dark;
+}
+
 body {
   background: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-sans);
+}
+
+input,
+select,
+textarea {
+  background-color: var(--color-card);
+  color: var(--color-text);
+}
+
+select option {
+  background-color: var(--color-card);
+  color: var(--color-text);
 }
